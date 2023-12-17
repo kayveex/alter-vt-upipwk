@@ -55,4 +55,90 @@ class VirtualController extends Controller
     {
         return view('Pages.bempwk');
     }
+
+    public function PKM() 
+    {
+        return view('Pages.pkmpwk');
+    }
+
+    public function RKMKB() 
+    {
+        return view('Pages.rkmkb');
+    }
+
+    public function AulaTimur() 
+    {
+        return view('Pages.altim');
+    }
+
+    public function Gazebo() 
+    {
+        return view('Pages.gazebo');
+    }
+
+    public function Labkom() 
+    {
+        return view('Pages.labkom');
+    }
+
+    // Pembatas
+    public function RKPSTI()  
+    {
+       return view('Pages.RK_PSTI'); 
+    }
+
+    public function GedungReformasi()  
+    {
+       return view('Pages.gedung_reformasi'); 
+    }
+
+    public function LobbyGedungReformasi()  
+    {
+       return view('Pages.lobby_reformasi'); 
+    }
+
+    public function LobbyGedungPancasila()  
+    {
+       return view('Pages.lobby_pancasila'); 
+    }
+
+    public function SmartClass()  
+    {
+       return view('Pages.smartclass'); 
+    }
+
+    public function RuangProdiPSTI()  
+    {
+       return view('Pages.prodipsti'); 
+    }
+
+    public function RAdmin()  
+    {
+       return view('Pages.radmin'); 
+    }
+
+    public function RuangDosen()  
+    {
+       return view('Pages.ruang_dosen'); 
+    }
+
+    public function RuangMicro()  
+    {
+       return view('Pages.ruang_micro'); 
+    }
+
+    public function LapanganBola()  
+    {
+       return view('Pages.lapangan_bola'); 
+    }
+
+    public function LapanganVolly()  
+    {
+       return view('Pages.lapangan_volly'); 
+    }
+
+    public function Asrama()  
+    {
+       return view('Pages.lapangan_volly'); 
+    }
 }

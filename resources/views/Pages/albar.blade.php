@@ -214,7 +214,7 @@
 
         const viewer = new Viewer({
             container: document.querySelector('#panorama'),
-            panorama: '/assets/img/footage/aula barat.jpg',
+            panorama: '/assets/img/footage/albarnew.jpg',
         });
     </script>
 </body>

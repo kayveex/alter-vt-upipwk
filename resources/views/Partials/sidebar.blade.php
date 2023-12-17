@@ -20,7 +20,7 @@
                                 </a>
                             </div>
                             <div class="col ">
-                                <a href="#">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#settings4">
                                     <img class="navs" src="/assets/img/FAVORIT.png">
                                 </a>
                             </div>
@@ -101,5 +101,39 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    {{-- Modal Setting 4 - List Favorit --}}
+    <div class="modal fade" id="settings4" tabindex="-1" aria-labelledby="settings4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div id="setting_content3" class="modal-content">
+                <a id="close_btn_sett" href="/home" class="btn-close btn-close-white" aria-label="Close"></a>
+                <div class="modal-body">
+                    <div class="container text-center text-white">
+                        <img class="mb-4" src="/assets/img/favorit.png" alt="">
+                        <div class="row ">
+                            <div class="col-md-4 mb-4">
+                                <a class="fav-box" href="/home"><img src="/assets/img/Fav_GedungPancasila.png"
+                                        alt="GedungPancasila"></a>
+                                <hr style="border-color: transparent; ">
+                                <a class="fav-box mt-4" href="/normaal-school"><img
+                                        src="/assets/img/Fav_NormaaSchool.png" alt="NormaalSchool"></a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="fav-box" href="/smartclass"><img src="/assets/img/Fav_SmartClass.png"
+                                        alt="Smartclass"></a>
+                            </div>
+                            <div class="col-md-4 ">
+                                <a class="fav-box" href="/lapangan-teater"><img
+                                        src="/assets/img/Fav_LapanganTeaterTerbuka.png" alt="LapanganTeater"></a>
+                                <hr style="border-color: transparent; ">
+                                <a class="fav-box mt-4" href="/normaal-school"><img src="/assets/img/Fav_Masjid.png"
+                                        alt="MasjidAlFurqon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
