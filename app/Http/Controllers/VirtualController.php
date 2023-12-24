@@ -139,6 +139,6 @@ class VirtualController extends Controller
 
     public function Asrama()  
     {
-       return view('Pages.lapangan_volly'); 
+       return view('Pages.asrama'); 
     }
 }

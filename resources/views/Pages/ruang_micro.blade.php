@@ -210,7 +210,7 @@
 
         const viewer = new Viewer({
             container: document.querySelector('#panorama'),
-            panorama: '/assets/img/footage/pkm UPI pwk.jpg',
+            panorama: '/assets/img/footage/micro.jpg',
         });
     </script>
 </body>

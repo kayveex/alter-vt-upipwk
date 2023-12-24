@@ -209,7 +209,7 @@
 
         const viewer = new Viewer({
             container: document.querySelector('#panorama'),
-            panorama: '/assets/img/footage/asrama.jpg',
+            panorama: '/assets/img/footage/asrama_dpn.jpg',
         });
     </script>
 </body>

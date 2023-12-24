@@ -209,7 +209,7 @@
 
         const viewer = new Viewer({
             container: document.querySelector('#panorama'),
-            panorama: '/assets/img/footage/pkm UPI pwk.jpg',
+            panorama: '/assets/img/footage/Ruang Dosen.jpg',
         });
     </script>
 </body>
